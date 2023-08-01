@@ -1,0 +1,13 @@
+hr.small-black-border {
+  width: 70px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+i.fa.icon-style {
+  color: #f43e56;
+  font-size: 60px;
+}
+.wp-block.editor-block-list__block {
+  max-width: 100%;
+}
