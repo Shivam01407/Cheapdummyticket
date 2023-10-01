@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dummy Flight Ticket Booking @ $3</title>
-    <meta name="description" content="Get in touch with us | Call or Whatsapp us at +91-77-0000-6525 | Mail us at info@dummy-tickets.com | Visit Us at our Delhi Address.">
-    <link rel="icon" type="image/png" href="../images/Logo.svg">
-    <link href="../images/Logo.svg" rel="apple-touch-icon">
+    <meta name="description" content="Get in touch with us | Call or Whatsapp us at +918882627507 | Mail us at originaldummyticket.com ">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link  href="images/favicon.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="./contact/contact.css">
     <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" /> -->
     
@@ -29,11 +29,11 @@
                 </div>
             </a>
 
-            <a href="mailto:info@abc.com" class="card">
+            <a href="mailto:originaldummyticket@gmail.com" class="card">
                 <div class="flex_sub_box front"  style="background: #dcdbce;">
                     <span class="img_icon icon_mail"></span>
                     <h3>Mail Us</h3>
-                    <small class="mini_text">info@abc.com</small>
+                    <small class="mini_text">originaldummyticket@gmail.com</small>
                 </div>
             </a>
 

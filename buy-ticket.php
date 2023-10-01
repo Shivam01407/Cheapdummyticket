@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buy Verifiable Dummy Ticket at Reasonable Price within 60 Minutes.</title>
     <meta name="description" content="Buy a verifiable dummy ticket from us & apply your visa freely. Get Dummy Ticket as a onward ticket.">
-    <link rel="icon" type="image/png" href="../images/DTFicon.png">
-    <link href="../images/DTFicon.png" rel="apple-touch-icon">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link  href="images/favicon.png" rel="apple-touch-icon">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

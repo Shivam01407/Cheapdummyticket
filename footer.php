@@ -23,7 +23,7 @@
                 <a class="icon_contact" href="./contact.php">Contact</a>
                 <a class="icon_call" href="tel:918882627507">+918882627507</a>
                 <a class="icon_whatsapp" href="https://wa.me/918882627507?text=I%20have%20a%20query%20regarding%20dummy%20tickets.">+918882627507</a>
-                <a class="icon_mail" href="mailto:info@abc.com">info@abc.com</a>
+                <a class="icon_mail" href="mailto:originaldummyticket@gmail.com">originaldummyticket@gmail.com</a>
             </div>
         </div>
         <div class="footer_rights" style="margin-top: 35px;">

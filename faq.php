@@ -7,10 +7,10 @@
     <title>Dummy Flight Ticket Booking @ $3</title>
     <meta name="description" content="Bust your myths about Dummy Tickets. Check complete information about dummy ticket & use it for Visa application, proof of return, passport renewal & many more">
 
-    <link rel="icon" type="image/png" href="../images/Logo.svg">
-    <link href="../images/Logo.svg" rel="apple-touch-icon">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link  href="images/favicon.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" /> -->
+    <link rel="stylesheet" href="./styleRsepons.css">
    
 </head>
 <body>

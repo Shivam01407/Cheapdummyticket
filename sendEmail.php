@@ -43,26 +43,28 @@ tr:nth-child(even) {
     </tr>';
   }
 
-  $message .= '</table> <br> <h2> We will get back to you on your contact number ' . $_POST['contact'] . ' or email ' . $_POST['email'] . '</h2><h5>Regards, <br>  Original Dummy ticket.com</h5>';
+  $message .= '</table> <br> <h3> We will get back to you on your contact number ' . $_POST['contact'] . ' or email ' . $_POST['email'] . '</h3><h5>Regards, <br>  Original Dummy ticket.com</h5>';
   $mail = new PHPMailer\PHPMailer\PHPMailer();
   $mail->IsSMTP(); // enable SMTP
 
   $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
   $mail->SMTPAuth = true; // authentication enabled
   // $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-  $mail->SMTPSecure = 'tsl'; // secure transfer enabled REQUIRED for Gmail
-  $mail->Host = "smtp.mailtrap.io";
-  $mail->Port = 587;
+  $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
+  $mail->Host = "server233.web-hosting.com";
+  $mail->Port = 465;
   $mail->IsHTML(true);
 
-  $mail->Username = '3e9c28ee21e0ee';
-  $mail->Password = '2832ea66d85dc7';
+  $mail->Username = 'info@originaldummyticket.com';
+  $mail->Password = 'Leena123@#';
 
   $mail->IsHTML(true);
-  $mail->SetFrom("xxxxxx@xxxxx.com");
-  $mail->Subject = "Test";
+  $mail->SetFrom("info@originaldummyticket.com");
+  $mail->Subject = "Request received for ticket booking";
   $mail->Body = $message;
-  $mail->AddAddress("xxxxxx@xxxxx.com");
+  $mailto= $_POST['email'];
+  $mail->AddAddress($mailto);
+  $mail->AddCC("originaldummyticket@gmail.com");
 
   if (!$mail->Send()) {
     // echo "Mailer Error: " . $mail->ErrorInfo;

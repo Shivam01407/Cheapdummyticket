@@ -9,8 +9,8 @@
         content="">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styleRsepons.css">
-    <link rel="icon" type="image/png" href="images/Logo.svg">
-    <link href="images/Logo.svg" rel="apple-touch-icon">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link  href="images/favicon.png" rel="apple-touch-icon">
 
     <!-- <link rel="canonical" href="https://dummy-tickets.com/index.php"> -->
 

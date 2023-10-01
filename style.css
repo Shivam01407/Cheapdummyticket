@@ -1,6 +1,3 @@
-@import url('css2');
-@import url('css2-1');
-@import url('css2-2');
 
 :root {
   --mainColor: rgb(221, 239, 239);
@@ -27,7 +24,7 @@ html{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Poppins;
+  font-family: sans-serif !important;
   color: var(--subMainColor);
 }
 
@@ -434,6 +431,7 @@ small.mini_text {
   margin: 25px 0px 50px 0px;
   position: relative;
   overflow: hidden;
+  line-height: 22px !important;
 }
 .footer *{
   color: var(--mainColor);
